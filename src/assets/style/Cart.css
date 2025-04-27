@@ -1,0 +1,72 @@
+.cart-container {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .cart-title {
+    margin-bottom: 20px;
+  }
+  
+  .cart-items {
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .pizza-imageN {
+    max-width: 100px; 
+    height: auto;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  
+  .pizza-name {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .pizza-price {
+    width: 80px;
+    text-align: right;
+    margin-left: 10px;
+  }
+  
+  .quantity-button {
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .quantity-button.decrease {
+    background-color: #f00;
+  }
+  
+  .quantity-button.increase {
+    background-color: #00f;
+  }
+  
+  .quantity-display {
+    width: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .cart-total {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .pay-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }

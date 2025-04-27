@@ -1,0 +1,40 @@
+.pizza-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .pizza-image {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .pizza-name {
+    margin-bottom: 10px;
+  }
+  
+  .pizza-price,
+  .pizza-ingredients,
+  .pizza-description {
+    margin-bottom: 8px;
+  }
+  
+  .add-to-cart {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 20px;
+  }
